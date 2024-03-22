@@ -1,9 +1,41 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "model": "Mac",
+      "releaseYear": "2021-12-31T19:00:00.000Z",
+      "category": "laptop",
+      "price": "1400",
+      "createDate": "2024-03-20T19:00:00.000Z",
+      "visible": true,
+      "id": 1
+    },
+    {
+      "model": "Iphone 13",
+      "releaseYear": "2020-12-31T19:00:00.000Z",
+      "category": "Смартфоны",
+      "price": "700",
+      "createDate": "2024-03-21T19:00:00.000Z",
+      "visible": true,
+      "id": 2
+    },
+    {
+      "model": "Xiaomi for new",
+      "releaseYear": "2020-12-31T19:00:00.000Z",
+      "category": "Смартфоны",
+      "price": "1300",
+      "createDate": "2024-03-21T19:00:00.000Z",
+      "visible": false,
+      "id": 3
+    },
+    {
+      "model": "Ipad 9.0 pro",
+      "releaseYear": "2020-12-31T19:00:00.000Z",
+      "category": "Планшеты",
+      "price": "399",
+      "createDate": "2024-03-20T19:00:00.000Z",
+      "visible": true,
+      "id": 4
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "categories": ["Смартфоны", "Планшеты", "laptop"]
 }
